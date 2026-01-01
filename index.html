@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陈乔恩的个人博客 - 首页</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">陈乔恩<span>的个人博客</span></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> 首页</a></li>
+                    <li><a href="about.html"><i class="fas fa-user"></i> 关于我</a></li>
+                    <li><a href="blog.html"><i class="fas fa-blog"></i> 博客文章</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 英雄区域 -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>欢迎来到我的个人博客</h1>
+                    <p class="subtitle">我是陈乔恩，厦门软件职业技术学院软件技术（程序设计）专业的学生</p>
+                    <p class="hero-text">在这里，我将分享我的学习笔记、技术心得和个人项目</p>
+                    <a href="about.html" class="btn">了解更多关于我</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 精选博客部分 -->
+        <section class="featured-posts">
+            <div class="container">
+                <h2 class="section-title">精选文章</h2>
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <div class="post-img" style="background-color: #3498db;">
+                            <div class="post-date">
+                                <span class="date-day">15</span>
+                                <span class="date-month">6月</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="#">JavaScript学习笔记：ES6新特性</a></h3>
+                            <p>ES6引入了许多新特性，如箭头函数、模板字符串、解构赋值等，这些功能大大提高了开发效率...</p>
+                            <div class="post-meta">
+                                <span><i class="fas fa-tag"></i> JavaScript</span>
+                                <span><i class="fas fa-clock"></i> 5分钟阅读</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="post-card">
+                        <div class="post-img" style="background-color: #e74c3c;">
+                            <div class="post-date">
+                                <span class="date-day">08</span>
+                                <span class="date-month">6月</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="#">HTML5和CSS3响应式设计实践</a></h3>
+                            <p>响应式网页设计是现代Web开发的必备技能。在这篇文章中，我将分享一些实用的响应式设计技巧...</p>
+                            <div class="post-meta">
+                                <span><i class="fas fa-tag"></i> 前端开发</span>
+                                <span><i class="fas fa-clock"></i> 7分钟阅读</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="post-card">
+                        <div class="post-img" style="background-color: #2ecc71;">
+                            <div class="post-date">
+                                <span class="date-day">22</span>
+                                <span class="date-month">5月</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="#">Python Flask框架入门指南</a></h3>
+                            <p>Flask是一个轻量级的Python Web框架，非常适合初学者学习Web开发。本文将介绍Flask的基础知识...</p>
+                            <div class="post-meta">
+                                <span><i class="fas fa-tag"></i> Python</span>
+                                <span><i class="fas fa-clock"></i> 10分钟阅读</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我简介 -->
+        <section class="about-preview">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">关于我</h2>
+                        <p>我是陈乔恩，目前就读于厦门软件职业技术学院软件技术（程序设计）专业。我对Web开发和软件设计充满热情，正在努力学习各种编程语言和开发框架。</p>
+                        <p>我的技术栈包括：HTML/CSS/JavaScript、Python、Java和数据库基础。我热爱探索新技术，并将学习过程中的收获记录在这个博客中。</p>
+                        <a href="about.html" class="btn btn-secondary">查看更多关于我</a>
+                    </div>
+                    <div class="about-img">
+                        <div class="img-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>陈乔恩的个人博客</h3>
+                    <p>厦门软件职业技术学院软件技术（程序设计）专业学生的个人学习空间，记录技术学习心得与成长历程。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="about.html">关于我</a></li>
+                        <li><a href="blog.html">博客文章</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系我</h3>
+                    <p><i class="fas fa-envelope"></i> chenqiaoen@example.com</p>
+                    <p><i class="fas fa-school"></i> 厦门软件职业技术学院</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-qq"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 陈乔恩的个人博客. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
